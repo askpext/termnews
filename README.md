@@ -1,27 +1,34 @@
 # TermNews
 
-![Crates.io](https://img.shields.io/crates/v/termnews?style=flat-square&color=orange) ![License](https://img.shields.io/crates/l/termnews?style=flat-square) 
+![Crates.io](https://img.shields.io/crates/v/termnews?style=flat-square&color=orange) ![License](https://img.shields.io/crates/l/termnews?style=flat-square)
+
+
 **Stop doomscrolling. Start reading.**
 
 TermNews is a high-performance terminal news reader built for nerds who want to stay informed without leaving the command line. It aggregates your favorite RSS feeds, strips away the web's clutter (ads, popups, paywalls), and renders clean, readable text instantly.
 
-![Demo](https://your-screenshot-url-here.com/demo.gif)
-
-*(Replace this link with your actual screenshot or GIF)*
-
----
-
-## ✨ Why TermNews?
-
-* **⚡ Zero Latency:** Written in Rust for instant startup and navigation.
-* **📖 Reader Mode:** Automatically extracts article content and removes ads/bloat.
-* **🛡️ Privacy First:** No tracking pixels, no cookies, just HTTP requests.
-* **⌨️ Vim-Native:** Navigate with `j/k`, switch tabs with `1-9`.
-* **🔌 Hackable:** Simple TOML configuration. Combine multiple feeds into a single stream.
+<p align="center">
+  <img width="360" alt="0109(4)" src="https://github.com/user-attachments/assets/5a02f11a-1445-4cab-b8e1-6383acd5a88e" />
+  <img width="360" alt="0109(3)" src="https://github.com/user-attachments/assets/062b8543-bd98-4349-8335-754508f07c0b" />
+</p>
+<p align="center">
+  <img width="360" alt="0109(2)" src="https://github.com/user-attachments/assets/9a44ec9e-e29d-4f4a-9dcf-bfb9a0274626" />
+  <img width="360" alt="0109(1)" src="https://github.com/user-attachments/assets/aa72ff5a-8278-4311-ac49-344fa7741ae4" />
+</p>
 
 ---
 
-## 🚀 Installation
+## Why TermNews?
+
+* **Zero Latency:** Written in Rust for instant startup and navigation.
+* **Reader Mode:** Automatically extracts article content and removes ads/bloat.
+* **Privacy First:** No tracking pixels, no cookies, just HTTP requests.
+* **Vim-Native:** Navigate with `j/k`, switch tabs with `1-9`.
+* **Hackable:** Simple TOML configuration. Combine multiple feeds into a single stream.
+
+---
+
+## Installation
 
 ### From Crates.io (Recommended)
 
@@ -39,7 +46,7 @@ cargo install --path .
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Key | Action |
 |-----|--------|
@@ -54,7 +61,7 @@ cargo install --path .
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 TermNews is opinionated out of the box, but fully customizable. Press `c` inside the app to edit your `config.toml`.
 
@@ -83,7 +90,7 @@ urls = [
     "https://www.aljazeera.com/xml/rss/all.xml"
 ]
 ```
-## ⚖️ Legal Disclaimer
+## Legal Disclaimer
 
 **TermNews is a content aggregator and terminal-based viewer.**
 All articles, headlines, and content displayed by this tool remain the property of their respective owners. This tool fetches publicly available RSS feeds and formats them for personal reading, acting as a user-agent (browser). Users are responsible for adhering to the Terms of Service of the sources they access.

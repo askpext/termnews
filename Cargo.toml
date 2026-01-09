@@ -1,6 +1,6 @@
 [package]
 name = "termnews"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Aditya <contact@pext.org>"]
 description = "A terminal-based news reader with custom feeds, vim-keys, and ad-free reader mode."
@@ -8,6 +8,7 @@ repository = "https://github.com/askpext/termnews"
 license = "MIT"
 keywords = ["tui", "news", "rss", "cli", "terminal"]
 categories = ["command-line-utilities", "visualization"]
+readme = "README.md"
 
 [dependencies]
 # UI & Terminal
