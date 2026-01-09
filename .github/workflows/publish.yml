@@ -1,0 +1,17 @@
+name: Publish to Crates.io
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write  # This is the magic line for Trusted Publishing
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Publish to Crates.io
+        run: cargo publish

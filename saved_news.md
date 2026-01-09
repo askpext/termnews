@@ -1,2 +1,0 @@
-- [Disney+ is launching short-form videos this year](https://techcrunch.com/2026/01/08/disney-is-launching-short-form-videos-this-year/)
-- [Influential China church reports arrests as crackdown on Christians intensifies](https://www.bbc.com/news/articles/ckgl8jgdxypo?at_medium=RSS&at_campaign=rss)
