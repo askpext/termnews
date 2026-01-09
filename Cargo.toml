@@ -1,0 +1,32 @@
+[package]
+name = "termnews"
+version = "0.1.0"
+edition = "2026"
+authors = ["Aditya <contact@pext.org>"]
+description = "A terminal-based news reader with custom feeds, vim-keys, and ad-free reader mode."
+repository = "https://github.com/askpext/termnews"
+license = "MIT"
+keywords = ["tui", "news", "rss", "cli", "terminal"]
+categories = ["command-line-utilities", "visualization"]
+
+[dependencies]
+# UI & Terminal
+ratatui = "0.26"
+crossterm = "0.27"
+html2text = "0.11"
+readability = "0.3.0"
+toml = "0.8"
+directories = "5.0"
+
+# Async & Network
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+futures = "0.3"
+
+# Data Parsing
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rss = "2.0"
+
+# Utilities
+open = "5"

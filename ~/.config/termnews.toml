@@ -1,0 +1,7 @@
+[[feeds]]
+name = "My Rust"
+url = "https://blog.rust-lang.org/feed.xml"
+
+[[feeds]]
+name = "AI News"
+url = "https://ynet-news.com/feed"
